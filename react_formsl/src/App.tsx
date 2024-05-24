@@ -1,12 +1,13 @@
 import FormUseState from "./components/forms/FormUseState"
 import FormUseRef from "./components/forms/FormUseRef"
 import UseStateVsUseRef from "./components/UseStateVsUseRef"
-import ReactFormsExamp from "./components/forms/ReactFormsExamp"
+import FormValidationZod from "./components/forms/FormValidationZod"
 
 const App = () => {
   return (
     <>
-    <ReactFormsExamp/>
+   <FormValidationZod/>
+    {/* <ReactFormsExamp/> */}
     {/* <UseStateVsUseRef/> */}
     {/* <FormUseRef/> */}
     {/* <FormUseState/> */}
