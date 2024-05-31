@@ -1,6 +1,9 @@
 body{
-  background-color: rgb(43, 41, 41);
+  background-image: url(./rider.png);
  color: bisque;
+ background-repeat: no-repeat;
+ height: 100%;
+ background-size: cover;
 }
 
 .myContainer{
@@ -9,3 +12,23 @@ body{
   left: 50%;
   transform: translate(-50%,-30%);
 }
+
+.loginBox{
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* 
+.subFormLayOut{
+  display: flex;
+  flex-direction: row;
+} */
+
+.subBox{
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
